@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Impact';
+}
+
+#namesubmit {
+    height: 5vh;
+    cursor: pointer;
+    font-size: 2.6vw;
+    border: 3px solid black;
+    background: black;
+    color: white;
+    font-family: Impact, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    width: 10vw;
+    margin-left: 55vw;
+    line-height: 5vh;
+    text-align: center;
+}
+
+#namefield {
+    height: 5vh;
+    font-size: 2.6vw;
+    border: 3px solid black;
+    background: white;
+    color: black;
+    font-family: Impact, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    width: 20vw;
+    margin-left: 35vw;
+
+    display: block;
+    text-align: center;
+}
+
+#recorddiv {
+    position: absolute;
+    font-family: Impact, sans-serif;
+    left: 30vw;
+    top: -60vh;
+    width: 40vw;
+    height: 60vh;
+
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    opacity: 0.8;
+}
+
+#startscreen {
+    margin-top: 4vw;
+}
+
+#fortable {
+    font-size: 1.8vw;
+}
+
+#recordsbutton {
+    cursor: pointer;
+    height: 5%;
+    font-family: Impact, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    border: 3px solid black;
+    background: black;
+    color: white;
+    width: 30vw;
+    margin-left: 35vw;
+    margin-top: 7vh;
+    font-size: 2.6vw;
+    border-radius: 0%;
+    text-align: center;
+    line-height: 5vh;
+}
+
+#replaybutton {
+    cursor: pointer;
+    height: 5%;
+    font-family: Impact, sans-serif;
+    font-weight: bold;
+    position: relative;
+    border: 3px solid black;
+    background: black;
+    color: white;
+    width: 30vw;
+    margin-left: 35vw;
+    margin-top: 14vh;
+    font-size: 2.6vw;
+    border-radius: 0%;
+    text-align: center;
+    line-height: 5vh;
+}
+
+#endscore {
+    cursor: default;
+    height: 5%;
+    font-family: Impact, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    background: white;
+    color: black;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 7vh;
+    font-size: 2.6vw;
+    border-radius: 0%;
+    text-align: center;
+    line-height: 5vh;
+}
+
+#yourname {
+    font-size: 1vw;
+    margin-left: 35vw;
+    width: 30vw;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    #recordsbutton {
+        width: 40vw;
+        height: 5%;
+        margin-left: 30%;
+    }
+
+    #fortable {
+        font-size: 2vw;
+    }
+
+    #replaybutton {
+        width: 40vw;
+        height: 5%;
+        margin-left: 30%;
+    }
+
+    #endscore {
+        width: 40vw;
+        height: 5%;
+        margin-left: 30%;
+    }
+
+    #startscreen {
+        margin-top: 10vw;
+    }
+
+    #namesubmit {
+        margin-left: 60%;
+    }
+
+    #namefield {
+        width: 30%;
+        margin-left: 30%;
+        text-align: left;
+    }
+
+    #yourname {
+        font-size: 1.3vw;
+        margin-left: 30vw;
+    }
+
+    #recorddiv {
+        left: 15vw;
+        width: 70vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    #recordsbutton {
+        width: 40vw;
+        height: 5vw;
+        margin-top: 10vh;
+        line-height: 4vw;
+    }
+
+    #replaybutton {
+        width: 40vw;
+        height: 5vw;
+        margin-top: 12vh;
+        line-height: 4vw;
+    }
+
+    #endscore {
+        width: 40vw;
+        height: 5vw;
+        margin-top: 6vh;
+        line-height: 4vw;
+    }
+
+    #startscreen {
+        margin-top: 0%;
+    }
+
+    #namesubmit {
+        margin-left: 60vw;
+        width: 10vw;
+        height: 5vw;
+        line-height: 4vw;
+
+    }
+
+    #fortable {
+        font-size: 2vw;
+    }
+
+    #namefield {
+        width: 30vw;
+        margin-left: 30vw;
+        margin-right: auto;
+        display: block;
+        text-align: left;
+        height: 5vw;
+    }
+
+    #yourname {
+        font-size: 1.7vw;
+        margin-left: 30vw;
+    }
+
+    #recorddiv {
+        left: 15vw;
+        width: 70vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #recordsbutton {
+        width: 40vw;
+        height: 5vw;
+        margin-top: 8vh;
+        line-height: 4vw;
+    }
+
+    #fortable {
+        font-size: 2vw;
+    }
+
+    #replaybutton {
+        width: 40vw;
+        height: 5vw;
+        margin-top: 7vh;
+        line-height: 4vw;
+    }
+
+    #endscore {
+        width: 40vw;
+        height: 5vw;
+        margin-top: 4vh;
+        line-height: 4vw;
+    }
+
+    #recorddiv {
+        height: 60vh;
+        left: 20vw;
+        width: 60vw;
+    }
+}
+
+
+
+@media screen and (max-width: 300px) {
+
+    #recordsbutton {
+        width: 40vw;
+        height: 5vw;
+        margin-top: 3vh;
+        line-height: 4vw;
+    }
+
+    #recorddiv {
+        height: 25vh;
+        left: 20vw;
+        width: 60vw;
+    }
+
+    #fortable {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 200px) {
+
+    #recordsbutton {
+        width: 40vw;
+        height: 5vw;
+        margin-top: 2vh;
+        line-height: 4vw;
+    }
+
+    #recorddiv {
+        height: 20vh;
+        left: 20vw;
+        width: 60vw;
+    }
+
+    #fortable {
+        font-size: 6.5vw;
+    }
+}
