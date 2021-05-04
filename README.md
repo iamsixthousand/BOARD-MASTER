@@ -1,4 +1,4 @@
-# BOARDMASTER
+# BOARD MASTER
 Created by Siarhei Ropeiko 6000 in 2021 for IT-academy Belarus.
 
 About game:
